@@ -1,0 +1,25 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"description": "Trigger for running pipeline",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "celebal_pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 10,
+				"startTime": "2025-07-23T23:27:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
