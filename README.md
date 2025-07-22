@@ -1,6 +1,6 @@
 # celebal_project
 
-# Azure Data Factory Pipeline: CSV to Azure SQL Database
+# Unstructured Data to Structured Data
 
 This project demonstrates how to use **Azure Data Factory (ADF)** to move and transform **unstructured CSV data stored in Azure Blob Storage** into **structured data stored in Azure SQL Database**.
 
